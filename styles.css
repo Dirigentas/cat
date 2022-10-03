@@ -1,0 +1,67 @@
+body {
+    background-color: #99D6E9;
+}
+div {
+    width: 700px;
+    background-color: #fff;
+    /*margin-left: calc((100% - 700px) / 2); jei darau padding, tai ši formulė netinka*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2.5%;
+    padding-bottom: 7%;
+
+}
+h3, header p {
+    display: inline-block;
+}
+h3 {
+    width: 60%;
+    font-size: 20px;
+}
+header p {
+    margin-left: 1.8%;
+    font-weight: bold;
+    font-size: 14px;
+}
+img {
+    width:45%;
+    float:right;
+    padding-top: 5%;
+}
+h1 {
+    font-size: 75px;
+    font-weight: 100;
+    margin: 0;
+    padding-top: 12%;
+    margin-bottom: -3%;
+}
+h2 {
+    font-size: 75px;
+    margin: 0
+}
+hr {
+    margin-right: 81%;
+    height: 4px;
+    background-color: #99D6E9;
+    border-width: 0;
+    border-radius: 3%;
+}
+main > p {
+    width: 34%;
+}
+article p {
+    display: inline-block;
+    margin: 0.5%;
+}
+button {
+    color: blue;
+    background-color: #99D6E9;
+    border-radius: 24px;
+    width: 80px;
+    height: 30px;
+    border-width: 1px;
+}
+
